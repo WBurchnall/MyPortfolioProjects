@@ -26,7 +26,7 @@
    d. If the graph is of all housing types in Kelowna, pick the legend coded RRRR.
    e. If the image is the main header on the dashboard (as seen in video), load PM4-Header.png
 
-_On a professional programming software, absolute paths SHOULD BE AN OPTION THAT WORKS._
+_On a professional programming software, relative paths SHOULD BE AN OPTION THAT WORKS._
 Politely, I just want to add Tableau is software, in my humble opinion, for people who can't build a dashboard in excel or Python, and it needs work on user friendliness. There are elements missing that SHOULD EXIST. If you select/highlight a navigation button, hit control+c and then press control+v, it does not make a new navigation button. Instead, it creates some bizzard new sheet with an array list of variables describing the nevigation button.
 
 My initial thoughts ????? Why?! I tried doing it 3 times in disbelief you can't copy a navigation button. Has nobody ever though copying/pasting image, text or nav-button elements on a dashboard, would be desirable/preferable over dragging a new element on? Basic UI failures. The amount of steps we must go through just to get our dashboard to open properly is unacceptable for paid professional software. This would take upwards of 5 minutes before presenting to a client. It feels like Beta software.
