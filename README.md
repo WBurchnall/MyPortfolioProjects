@@ -7,6 +7,21 @@ https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesCha
 A brief multivariant analysis of the factors thought to be related to the Canadian Housing Market Prices and analysis of previous bubbles trends to predict future crash probability and time frame.
 https://github.com/WBurchnall/MyPortfolioProjects/tree/main/CanadianRealEstateBubblesTableau
 
+#Project 3 - Movie Recommender System
+A comparison of Recommender Systems using item-item or user-user collaborative and filtering
+https://github.com/WBurchnall/MyPortfolioProjects/tree/main/RecommenderSystemForMovies
+
+#Project 4 - Space X Rocket Launches
+An Analysis of Space X Rocket Launch Successes by various categories like payload, booster type, etc with respect to time and location.
+https://github.com/WBurchnall/MyPortfolioProjects/tree/main/AnalysisOfSpaceXRocketLaunches
+
+#Project 5 - Debt Repayment Likelihood Assessment
+Using KNN, Decision Trees, SVM and Logistic Regression to model debt repayment of loans based of multivariate factors and determining the best model with Jaccard similarity index, F1-score and log-loss scores utilizing SKLearn, Pandas, Seaborn, Numpy and MatPlotLib libraries.
+https://github.com/WBurchnall/MyPortfolioProjects/tree/main/MachineLearningforDebtRepaymentEstimation
+
+#Project 6 - Vancouver Tree Planting Dashboard
+Using a public dataset, a dashboard made in Tableau showing trees by species, neighbourhood and date planted for an interactive infographic regarding trees planted within Vancouver.
+
 # Introduction
 _The boring educational background details_
 - Bachelor of Applied Sciences in Manufacturing (Applied Mechanical) Engineering from UBC
