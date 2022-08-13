@@ -1,6 +1,5 @@
-# Group 11 - When Will The Bubble Burst?
-### A submission for UBCO's DATA 301 - Introduction to Data Analytics Project Code of Conduct
-### We acknowledge, UBCO resides on the unceded territory of the Okanagan People's of the slyvix tribe.
+# **Canadian Real Estate - When will the bubble burst?**
+# *Focusing on Vancouver, Kelowna and Canada Wise.
 
 ----
 
@@ -19,7 +18,7 @@
 #### Lisence information
 MIT License
 
-Copyright (c) 2021 Wesley Burchnall, Andy McLean and Abirinder Brar
+Copyright (c) 2021 Wesley Burchnall
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
