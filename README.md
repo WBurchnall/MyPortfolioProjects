@@ -1,4 +1,8 @@
 ## Welcome to My Portfolio Projects
+#Project 1 - Endangered Species Chatbot
+A chatbot designed to help the user learn more about endangered species commonly found on the "Red List".
+https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot
+
 # Introduction
 _The boring educational background details_
 - Bachelor of Applied Sciences in Manufacturing (Applied Mechanical) Engineering from UBC
