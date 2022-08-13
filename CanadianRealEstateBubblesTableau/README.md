@@ -1,6 +1,8 @@
 # **Canadian Real Estate - When will the bubble burst?**
 # *Focusing on Vancouver, Kelowna and Canada Wise.
-- A data exploration of the trends during previous bubbles and a multi-varite analysis of the Canadian housing market / economy to see if we can predict when the housing bubble might crash.
+- A data exploration of the trends during previous bubbles and a multi-varite analysis of the Canadian housing market / economy to see if we can predict when the housing bubble might crash. A brief video of our findings is presented below:
+
+https://github.com/WBurchnall/MyPortfolioProjects/blob/main/CanadianRealEstateBubblesTableau/presentation/COSC%20301%20Presentation.mp4?raw=true
 
 ## Project Outcomes
 
