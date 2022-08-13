@@ -3,6 +3,10 @@
 A chatbot designed to help the user learn more about endangered species commonly found on the "Red List".
 https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot
 
+#Project 2 - Canadian Housing Market Trends and Bubble Prediction Multivariant Analysis
+A brief multivariant analysis of the factors thought to be related to the Canadian Housing Market Prices and analysis of previous bubbles trends to predict future crash probability and time frame.
+https://github.com/WBurchnall/MyPortfolioProjects/tree/main/CanadianRealEstateBubblesTableau
+
 # Introduction
 _The boring educational background details_
 - Bachelor of Applied Sciences in Manufacturing (Applied Mechanical) Engineering from UBC
