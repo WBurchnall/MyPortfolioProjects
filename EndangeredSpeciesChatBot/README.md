@@ -65,14 +65,14 @@ Everytime, before chatbot starts to speak, it creates a new thread and plays it 
 ## Categorized String Matching:
 
 Our intents.json file is basically a response tree. User asks a question, and model decides the category of the question which is represented as `tag` and then ideantifies which question it is by the probability of the user input being related to the question(pattern) in tag. If the probability is higher than 0.75(75%), model picks random response from the respose list and returns it to the user. 
-![Screenshot](https://github.com/samiraliyev573/Red-List-Bot/blob/main/images/categorizedstringmatching.png)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/blob/main/images/categorizedstringmatching.png)
 
 # How to run chatbot 
 ## Note: If you are using windows, simply double click on the InstallationWindows.bat and it will install all the necessary files.
 
 
 1. Clone the repository from github
-https://github.com/samiraliyev573/Red-List-Bot
+https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot
 
 2. Have python installed (python 3.6+ )
 https://www.python.org/downloads/
