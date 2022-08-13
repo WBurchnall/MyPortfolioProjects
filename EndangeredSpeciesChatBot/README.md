@@ -68,7 +68,7 @@ Everytime, before chatbot starts to speak, it creates a new thread and plays it 
 Our intents.json file is basically a response tree. User asks a question, and model decides the category of the question which is represented as `tag` and then ideantifies which question it is by the probability of the user input being related to the question(pattern) in tag. If the probability is higher than 0.75(75%), model picks random response from the respose list and returns it to the user. 
 ![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/categorizedstringmatching.png?raw=true)
 
-# How to run chatbot 
+# How to the run chatbot 
 ## Note: If you are using windows, simply double click on the InstallationWindows.bat and it will install all the necessary files.
 
 
