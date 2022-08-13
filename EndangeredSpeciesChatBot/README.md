@@ -13,24 +13,25 @@ A graphical user interface (GUI) was implemented into the A2-Extension allowing 
 
 For Graphical User Interface, I decided to go with tkinter library inside python since it is one of the popular ways to create GUI for the python app. The app consists of one main frame. First I created chatwindow which is basically the entire window. Then we created a scrollbar that is always on the right of chat window and follows it through the vertical axis. Then I created a text for displaying texts. I also made the scrollbar follow the text on y axis. Then we created a frame. This frame is later used to put user input field inside it. Inside user input field user would type their question/comment. I also added button that is used to send message. This button is on the right of the text input field and it is used to talk to the get_ouput function. Get output function basically gets user input from the text input field, pastes inside window and then sends to the chat method in chat.py and saves the result string inside chatbotanswer variable. Then it prints the answer from chatbot’s name, and also puts it inside the window. Once this is done, app clears the input field so user doesn’t have to delete by themselves every time. For tkinter to work, it runs the main loop which continuously runs all the time. Therefore, binding get_output method to the main loop will make the app continuously ask for user input and return answer, just like a while loop that we had from the assignment. There is also exit button under settings menu that lets user to exit the app. Additionally, there is clear chat button on file menu which clears the entire conversation history so you can start as if nothing was written before.
 
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/GUIScreenshot.png)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/GUIScreenshot.png?raw=true)
+
 
 ## User Input SpellChecking:
 
 Our Red List Bot uses natural language processing tools such as stemming and tokenization. This means that present, past, future tense doesnt matter and bot takes the root of every word. When user asks a question, bot splits the sentence into words and punctiations, stems the word(extracting root of the word) and then asks from its database. Model is also trained using stemming and tokenization to make it more fluent. 
 
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/InputSpellChecking.png)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/InputSpellChecking.png?raw=true)
 
 As you can see from the screenshot, user asks `How aer you` or `See ya later` or `Which are animals endanger` but bot still recognizes this as greeting response. This is because we have set variance high enough to make it flexible while making sure that it doesnt answer randomly to every question and let user know when it doesnt have the answer.
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/InputSpellCheckingProof1.png)
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/Input%20SpellCheckingProof2.png)
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/InputSpellCheckingProof3.png)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/InputSpellCheckingProof1.png?raw=true)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/Input%20SpellCheckingProof2.png?raw=true)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/InputSpellCheckingProof3.png?raw=true)
 
 ## Part of Speech Tagging:
 POS Tagging(Part of speech tagging) is a very important feature in the development of the bot. It is used to identify nouns, adjectives, verbs and every phrase. We created `show_part_of_speech `function in `nltkproperties.py` which is the primary function for it. Sample output shows that method working on the user input. This very important because later we will be using it to identify adjectives in a sentence and implement for synonym recognition
 
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/POSTagging.png)
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/POSTaggingproof.png)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/POSTagging.png?raw=true)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/POSTaggingproof.png?raw=true)
 
  We can analyze one of the lines in the terminal output. 
 `[('Tell', 'VB'), ('me', 'PRP'), ('more', 'JJR'), ('about', 'IN'), ('Leopards', 'NNS')]`
@@ -43,12 +44,12 @@ This function now is being used in train.py class. In train.py I created an algo
 
 
 
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/SynonymRecognition.png)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/SynonymRecognition.png?raw=true)
 
 You can see from these screenshots that we do not have word near extinct and grown in the intents file. Bot was smart enough to recognize that the near is synonym to close and grown is synonym to big. 
 
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/SynonymRecognitionProof.png)
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/SynonymRecognitionProof2.png)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/SynonymRecognitionProof.png?raw=true)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/SynonymRecognitionProof2.png?raw=true)
 
 That being said, there are still a lot of limitations with the synonym recognition algorithm. It was very complex to implement so we only tried it on adjectives to prove that this is fully functional. Implementing them on verbs, nouns and pronounts will take more complexity yet can be completed with minor changes to methods and classes. 
 
@@ -65,7 +66,7 @@ Everytime, before chatbot starts to speak, it creates a new thread and plays it 
 ## Categorized String Matching:
 
 Our intents.json file is basically a response tree. User asks a question, and model decides the category of the question which is represented as `tag` and then ideantifies which question it is by the probability of the user input being related to the question(pattern) in tag. If the probability is higher than 0.75(75%), model picks random response from the respose list and returns it to the user. 
-![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/tree/main/EndangeredSpeciesChatBot/images/categorizedstringmatching.png)
+![Screenshot](https://github.com/WBurchnall/MyPortfolioProjects/blob/main/EndangeredSpeciesChatBot/images/categorizedstringmatching.png?raw=true)
 
 # How to run chatbot 
 ## Note: If you are using windows, simply double click on the InstallationWindows.bat and it will install all the necessary files.
